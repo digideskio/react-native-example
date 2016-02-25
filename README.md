@@ -7,11 +7,8 @@ This is a skeleton React Native App for Wagtail sites. It's based on an app by [
 ### Getting started
 
 1. Follow the [React Native guide](https://facebook.github.io/react-native/docs/getting-started.html) to set up the tools you'll need in your developer environment.
-2. ```bash
-git clone git@github.com:tomdyson/react-native-example.git
-cd react-native-example
-```
-3. Open ios/Festival.xcodeproj in Xcode
+2. `git clone git@github.com:tomdyson/react-native-example.git`
+3. Open react-native-example/ios/Festival.xcodeproj in Xcode
 
 ### Testing on a simulator:
 
