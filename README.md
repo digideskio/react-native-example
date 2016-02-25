@@ -1,19 +1,19 @@
 ## Festival: React Native
 
-This is a demo React Native App, so we can learn about the technology.
+![Screenshot](react-demo-app-screenshot.png)
 
-Follow [this guide](https://facebook.github.io/react-native/docs/getting-started.html) to set up the tools you'll need.
+This is a skeleton React Native App for Wagtail sites. It's based on an app by [Josh Barr](https://github.com/JoshBarr) from [Springload](http://www.springload.co.nz/) for [New Zealand Festival](http://www.festival.co.nz/). It speaks to the [API](http://www.festival.co.nz/public-api/v1/pages/) on the live festival website.
 
-It speaks to the API on the *live* festival website. [See it here](http://www.festival.co.nz/public-api/v1/pages/).
+### Getting started
 
-### Signing authorities:
+1. Follow the [React Native guide](https://facebook.github.io/react-native/docs/getting-started.html) to set up the tools you'll need in your developer environment.
+2. ```bash
+git clone git@github.com:tomdyson/react-native-example.git
+cd react-native-example
+```
+3. Open ios/Festival.xcodeproj in Xcode
 
-To test on a real device, you'll need to have xCode signed in to the Apple Developer Programme.
-
-There's details in the UPM. Look for `mobile@springload.co.nz`.
-
-
-### Important note:
+### Testing on a simulator:
 
 To develop on the iOS simulator, the default settings in `AppDelegate.m` (xcode)
 will be fine:
@@ -37,4 +37,8 @@ with the app. You can do that by uncommenting this line:
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 ```
 
+### Signing authorities:
 
+To test on a real device, you'll need to have xCode signed in to the Apple Developer Programme.
+
+There's details in the UPM. Look for `mobile@springload.co.nz`.
