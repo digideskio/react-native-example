@@ -1,6 +1,6 @@
 ## Festival: React Native
 
-![Screenshot](react-demo-app-screenshot.png)
+<img src="react-demo-app-screenshot.png" alt="alt text" width="320">
 
 This is a skeleton React Native App for Wagtail sites. It's based on an app by [Josh Barr](https://github.com/JoshBarr) from [Springload](http://www.springload.co.nz/) for [New Zealand Festival](http://www.festival.co.nz/). It speaks to the [API](http://www.festival.co.nz/public-api/v1/pages/) on the live festival website.
 
